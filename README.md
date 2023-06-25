@@ -17,7 +17,8 @@ An MVVM network handler for flutter. Call an API, retrieve the call in viewmodel
 
 Handles Network Error Statues and Messages<BR/>
 Handles Jsons to Dart Object.<BR/>
-Easy API calls so you only have to worry of your logic in ViewModel and your actual UI.
+Easy API calls so you only have to worry of your logic in ViewModel and your actual UI.<BR/>
+Supports GET, POST, and MultiPart.
 
 ## Getting started
 
