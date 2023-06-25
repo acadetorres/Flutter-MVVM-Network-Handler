@@ -11,12 +11,14 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+An MVVM network handler for flutter. Call an API, retrieve the call in viewmodel, expose the observeable in your UI.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+Handles Network Error Statues and Messages<BR/>
+Handles Jsons to Dart Object.<BR/>
+Easy API calls so you only have to worry of your logic in ViewModel and your actual UI.<BR/>
+Supports GET, POST, and MultiPart.
 
 ## Getting started
 
