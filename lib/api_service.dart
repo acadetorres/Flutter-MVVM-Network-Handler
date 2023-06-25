@@ -1,14 +1,12 @@
 import 'dart:convert';
 import 'dart:io';
 import 'dart:typed_data';
-import 'package:cross_file/src/types/interface.dart';
+
 import 'package:http_parser/http_parser.dart';
-import 'package:growth_engine_multiplatform/Utils/ApiResponses/LoginResponse.dart';
-import 'package:growth_engine_multiplatform/Utils/ApiResponses/MetaResponse.dart';
 import 'package:logger/logger.dart';
 import 'package:http/http.dart' as http;
 
-import '../../fmnetworkhandler/lib/app_exception.dart';
+import 'app_exception.dart';
 
 /// This class is an excerpt from https://medium.com/@ermarajhussain/flutter-mvvm-architecture-best-practice-using-provide-http-4939bdaae171
 /// It is now modified for our use cases.
@@ -120,9 +118,9 @@ class ApiService {
       /// MetaResponse is generated with a JSON to DART plugin
       default:
         print(response.body.toString());
-        var meta = MetaResponse.fromJson(json.decode(response.body.toString()));
-        logger.e(meta);
-        throw HttpException(meta.meta?.message);
+        // var meta = MetaResponse.fromJson(json.decode(response.body.toString()));
+        logger.e(response.body.toString());
+        throw HttpException(response.body.toString());
     }
   }
 }

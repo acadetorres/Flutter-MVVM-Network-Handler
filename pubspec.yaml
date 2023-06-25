@@ -11,6 +11,15 @@ dependencies:
   flutter:
     sdk: flutter
 
+  logger: ^1.1.0
+
+  shared_preferences: ^2.0.13
+  get_storage: ^2.0.3
+  get: ^4.6.5
+  http: ^1.0.0
+  fluttertoast: ^8.0.9
+
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

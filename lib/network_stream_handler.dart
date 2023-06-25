@@ -2,7 +2,6 @@ import 'dart:developer';
 import 'dart:typed_data';
 
 import 'package:flutter/cupertino.dart';
-import 'package:image_picker/image_picker.dart';
 import 'package:logger/logger.dart';
 import 'api_response.dart';
 import 'api_service.dart';

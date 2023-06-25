@@ -2,9 +2,8 @@
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:logger/logger.dart';
-import 'package:stacked/stacked.dart';
 
-import 'lib/api_response.dart';
+import 'api_response.dart';
 import 'package:get/get.dart';
 
 
