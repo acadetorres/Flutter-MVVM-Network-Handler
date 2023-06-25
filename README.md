@@ -15,8 +15,8 @@ An MVVM network handler for flutter. Call an API, retrieve the call in viewmodel
 
 ## Features
 
-Handles Network Error Statues and Messages\n
-Handles Jsons to Dart Object.\n
+Handles Network Error Statues and Messages__
+Handles Jsons to Dart Object.__
 Easy API calls so you only have to worry of your logic in ViewModel and your actual UI.
 
 ## Getting started
